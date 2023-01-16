@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		333D00392974489200176105 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D00382974489200176105 /* Task.swift */; };
-		335A086B29738B250085732C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A086A29738B250085732C /* AppDelegate.swift */; };
-		335A086D29738B250085732C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A086C29738B250085732C /* SceneDelegate.swift */; };
-		335A086F29738B250085732C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335A086E29738B250085732C /* ViewController.swift */; };
-		335A087229738B250085732C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A087029738B250085732C /* Main.storyboard */; };
-		335A087429738B260085732C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335A087329738B260085732C /* Assets.xcassets */; };
-		335A087729738B260085732C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A087529738B260085732C /* LaunchScreen.storyboard */; };
+		33F80578297586AE00CC15AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F80577297586AE00CC15AD /* AppDelegate.swift */; };
+		33F8057A297586AE00CC15AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F80579297586AE00CC15AD /* SceneDelegate.swift */; };
+		33F8057C297586AE00CC15AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8057B297586AE00CC15AD /* ViewController.swift */; };
+		33F8057F297586AE00CC15AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F8057D297586AE00CC15AD /* Main.storyboard */; };
+		33F80581297586AE00CC15AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F80580297586AE00CC15AD /* Assets.xcassets */; };
+		33F80584297586AE00CC15AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F80582297586AE00CC15AD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		333D00382974489200176105 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		335A086729738B250085732C /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		335A086A29738B250085732C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		335A086C29738B250085732C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		335A086E29738B250085732C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		335A087129738B250085732C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		335A087329738B260085732C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		335A087629738B260085732C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		335A087829738B260085732C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F80574297586AE00CC15AD /* pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F80577297586AE00CC15AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33F80579297586AE00CC15AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33F8057B297586AE00CC15AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33F8057E297586AE00CC15AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33F80580297586AE00CC15AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33F80583297586AE00CC15AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33F80585297586AE00CC15AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		335A086429738B250085732C /* Frameworks */ = {
+		33F80571297586AD00CC15AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		335A085E29738B250085732C = {
+		33F8056B297586AD00CC15AD = {
 			isa = PBXGroup;
 			children = (
-				333D00382974489200176105 /* Task.swift */,
-				335A086929738B250085732C /* TodoList */,
-				335A086829738B250085732C /* Products */,
+				33F80576297586AE00CC15AD /* pomodoro */,
+				33F80575297586AE00CC15AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		335A086829738B250085732C /* Products */ = {
+		33F80575297586AE00CC15AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				335A086729738B250085732C /* TodoList.app */,
+				33F80574297586AE00CC15AD /* pomodoro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		335A086929738B250085732C /* TodoList */ = {
+		33F80576297586AE00CC15AD /* pomodoro */ = {
 			isa = PBXGroup;
 			children = (
-				335A086A29738B250085732C /* AppDelegate.swift */,
-				335A086C29738B250085732C /* SceneDelegate.swift */,
-				335A086E29738B250085732C /* ViewController.swift */,
-				335A087029738B250085732C /* Main.storyboard */,
-				335A087329738B260085732C /* Assets.xcassets */,
-				335A087529738B260085732C /* LaunchScreen.storyboard */,
-				335A087829738B260085732C /* Info.plist */,
+				33F80577297586AE00CC15AD /* AppDelegate.swift */,
+				33F80579297586AE00CC15AD /* SceneDelegate.swift */,
+				33F8057B297586AE00CC15AD /* ViewController.swift */,
+				33F8057D297586AE00CC15AD /* Main.storyboard */,
+				33F80580297586AE00CC15AD /* Assets.xcassets */,
+				33F80582297586AE00CC15AD /* LaunchScreen.storyboard */,
+				33F80585297586AE00CC15AD /* Info.plist */,
 			);
-			path = TodoList;
+			path = pomodoro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		335A086629738B250085732C /* TodoList */ = {
+		33F80573297586AD00CC15AD /* pomodoro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 335A087B29738B260085732C /* Build configuration list for PBXNativeTarget "TodoList" */;
+			buildConfigurationList = 33F80588297586AE00CC15AD /* Build configuration list for PBXNativeTarget "pomodoro" */;
 			buildPhases = (
-				335A086329738B250085732C /* Sources */,
-				335A086429738B250085732C /* Frameworks */,
-				335A086529738B250085732C /* Resources */,
+				33F80570297586AD00CC15AD /* Sources */,
+				33F80571297586AD00CC15AD /* Frameworks */,
+				33F80572297586AD00CC15AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TodoList;
-			productName = TodoList;
-			productReference = 335A086729738B250085732C /* TodoList.app */;
+			name = pomodoro;
+			productName = pomodoro;
+			productReference = 33F80574297586AE00CC15AD /* pomodoro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		335A085F29738B250085732C /* Project object */ = {
+		33F8056C297586AD00CC15AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					335A086629738B250085732C = {
+					33F80573297586AD00CC15AD = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 335A086229738B250085732C /* Build configuration list for PBXProject "TodoList" */;
+			buildConfigurationList = 33F8056F297586AD00CC15AD /* Build configuration list for PBXProject "pomodoro" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 335A085E29738B250085732C;
-			productRefGroup = 335A086829738B250085732C /* Products */;
+			mainGroup = 33F8056B297586AD00CC15AD;
+			productRefGroup = 33F80575297586AE00CC15AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				335A086629738B250085732C /* TodoList */,
+				33F80573297586AD00CC15AD /* pomodoro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		335A086529738B250085732C /* Resources */ = {
+		33F80572297586AD00CC15AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335A087729738B260085732C /* LaunchScreen.storyboard in Resources */,
-				335A087429738B260085732C /* Assets.xcassets in Resources */,
-				335A087229738B250085732C /* Main.storyboard in Resources */,
+				33F80584297586AE00CC15AD /* LaunchScreen.storyboard in Resources */,
+				33F80581297586AE00CC15AD /* Assets.xcassets in Resources */,
+				33F8057F297586AE00CC15AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		335A086329738B250085732C /* Sources */ = {
+		33F80570297586AD00CC15AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333D00392974489200176105 /* Task.swift in Sources */,
-				335A086F29738B250085732C /* ViewController.swift in Sources */,
-				335A086B29738B250085732C /* AppDelegate.swift in Sources */,
-				335A086D29738B250085732C /* SceneDelegate.swift in Sources */,
+				33F8057C297586AE00CC15AD /* ViewController.swift in Sources */,
+				33F80578297586AE00CC15AD /* AppDelegate.swift in Sources */,
+				33F8057A297586AE00CC15AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		335A087029738B250085732C /* Main.storyboard */ = {
+		33F8057D297586AE00CC15AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				335A087129738B250085732C /* Base */,
+				33F8057E297586AE00CC15AD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		335A087529738B260085732C /* LaunchScreen.storyboard */ = {
+		33F80582297586AE00CC15AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				335A087629738B260085732C /* Base */,
+				33F80583297586AE00CC15AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		335A087929738B260085732C /* Debug */ = {
+		33F80586297586AE00CC15AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		335A087A29738B260085732C /* Release */ = {
+		33F80587297586AE00CC15AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +280,7 @@
 			};
 			name = Release;
 		};
-		335A087C29738B260085732C /* Debug */ = {
+		33F80589297586AE00CC15AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SU3UM7Z98;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_FILE = pomodoro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jayden.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = jayden.pomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		335A087D29738B260085732C /* Release */ = {
+		33F8058A297586AE00CC15AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -321,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6SU3UM7Z98;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_FILE = pomodoro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jayden.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = jayden.pomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		335A086229738B250085732C /* Build configuration list for PBXProject "TodoList" */ = {
+		33F8056F297586AD00CC15AD /* Build configuration list for PBXProject "pomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				335A087929738B260085732C /* Debug */,
-				335A087A29738B260085732C /* Release */,
+				33F80586297586AE00CC15AD /* Debug */,
+				33F80587297586AE00CC15AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		335A087B29738B260085732C /* Build configuration list for PBXNativeTarget "TodoList" */ = {
+		33F80588297586AE00CC15AD /* Build configuration list for PBXNativeTarget "pomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				335A087C29738B260085732C /* Debug */,
-				335A087D29738B260085732C /* Release */,
+				33F80589297586AE00CC15AD /* Debug */,
+				33F8058A297586AE00CC15AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 335A085F29738B250085732C /* Project object */;
+	rootObject = 33F8056C297586AD00CC15AD /* Project object */;
 }
