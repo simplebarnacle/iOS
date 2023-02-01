@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  알바스케줄러만들기
+//  StockRank
 //
-//  Created by s ky on 2023/01/13.
+//  Created by joonwon lee on 2022/04/19.
 //
 
 import UIKit
