@@ -93,6 +93,13 @@
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="402" height="129"/>
+                                        <connections>
+                                            <outlet property="companyIconImageView" destination="q0m-L6-V2N" id="KSt-Oa-lkW"/>
+                                            <outlet property="companyNameLabel" destination="xUn-Lm-7cF" id="Zgv-eb-oMl"/>
+                                            <outlet property="companyPriceLabel" destination="Zo1-FF-cLb" id="DE6-Vj-vhe"/>
+                                            <outlet property="diffLabel" destination="IKx-Fo-U71" id="F1Q-Tz-Ays"/>
+                                            <outlet property="rankLabel" destination="9Ho-bi-0cu" id="yzn-uU-LId"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
