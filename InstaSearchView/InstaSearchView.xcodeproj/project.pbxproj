@@ -85,8 +85,6 @@
 		948CD2202812F01B003DC0C4 = {
 			isa = PBXGroup;
 			children = (
-				33D6AC34298D5716002C54DA /* HomeCell.swift */,
-				33D6AC32298D5624002C54DA /* HomeViewController.swift */,
 				948CD22B2812F01B003DC0C4 /* InstaSearchView */,
 				948CD2422812F01C003DC0C4 /* InstaSearchViewTests */,
 				948CD24C2812F01C003DC0C4 /* InstaSearchViewUITests */,
@@ -111,6 +109,8 @@
 				948CD22E2812F01B003DC0C4 /* SceneDelegate.swift */,
 				948CD2322812F01B003DC0C4 /* Main.storyboard */,
 				339AFEB6298C071300206D20 /* ResultCell.swift */,
+				33D6AC34298D5716002C54DA /* HomeCell.swift */,
+				33D6AC32298D5624002C54DA /* HomeViewController.swift */,
 				339AFEB4298C067500206D20 /* SearchViewController.swift */,
 				948CD2352812F01B003DC0C4 /* Assets.xcassets */,
 				948CD2372812F01B003DC0C4 /* LaunchScreen.storyboard */,
