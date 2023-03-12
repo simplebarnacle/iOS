@@ -20,11 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func showAlert(_ sender: Any) {
         print("refresh button tapped")
-        
-        
-        
         let message = "가격은 ₩\(currentValue)원 입니다."
-        
         let alert = UIAlertController(title: "Hello", message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: { action in
             self.refresh()
