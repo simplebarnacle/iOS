@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
-//  HeadSpaceFocus
+//  Subway
 //
-//  Created by joonwon lee on 2022/04/24.
+//  Created by jayden on 2023/03/28.
 //
 
 import UIKit
 
- @main
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
