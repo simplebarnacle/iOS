@@ -22,7 +22,7 @@ final class StationDetailCollectionViewCell: UICollectionViewCell {
         return label
     }()
     
-    func setup() {
+    func setup(with realTimeArrival: StationArrivalDataResponseModel.RealTimeArrival) {
         layer.cornerRadius = 12
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.2
@@ -43,8 +43,8 @@ final class StationDetailCollectionViewCell: UICollectionViewCell {
             $0.top.equalTo(lineLabel.snp.bottom).offset(16)
             $0.bottom.equalToSuperview().inset(16)
         }
-        lineLabel.text = "수원역 방면"
-        remainTimeLabel.text = "수원시청역 도착"
+        lineLabel.text = realTimeArrival.line
+        remainTimeLabel.text = realTimeArrival.remainTime
         
     }
     

@@ -11,6 +11,10 @@ import Alamofire
 
 final class StationDetailViewController: UIViewController {
     
+    private var realtimeArrivalList: [StationArrivalDataResponseModel.RealTimeArrival] = []
+    
+    private let station: Station
+    
     private lazy var RefreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(fetchData), for: .valueChanged)
@@ -19,7 +23,7 @@ final class StationDetailViewController: UIViewController {
     }()
     
     
-    
+     
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.estimatedItemSize = CGSize(width: view.frame.width - 32, height: 100)
@@ -35,11 +39,21 @@ final class StationDetailViewController: UIViewController {
         return collectionView
     }()
     
+    init(station: Station) {
+        self.station = station
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.title = "수원역"
+        navigationItem.title = station.stationName
         
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints{ $0.edges.equalToSuperview() }
@@ -49,7 +63,7 @@ final class StationDetailViewController: UIViewController {
     
     @objc private func fetchData() {
         
-        let stationName = "수원역"
+        let stationName = station.stationName
         let Constant = "http://swopenapi.seoul.go.kr/api/subway/sample/json/realtimeStationArrival/0/5/"
         let url = Constant + "\(stationName.replacingOccurrences(of: "역", with: ""))"
         
@@ -61,7 +75,8 @@ final class StationDetailViewController: UIViewController {
 
                 guard case .success(let data) = response.result else { return  }
                 
-                print(data.realtimeArrivalList)
+                self?.realtimeArrivalList = data.realtimeArrivalList
+                self?.collectionView.reloadData()
             }
             .resume()
     }
@@ -69,12 +84,13 @@ final class StationDetailViewController: UIViewController {
 
 extension StationDetailViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return realtimeArrivalList.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "StationDetailCollectionViewCell", for: indexPath) as? StationDetailCollectionViewCell else { return UICollectionViewCell() }
-        cell.setup()
+        let realTimeArrival = realtimeArrivalList[indexPath.row]
+        cell.setup(with: realTimeArrival)
         return cell
     }
 }
