@@ -1,4 +1,4 @@
-# self-taught_iOS_learning_repo
+# iOS_learning_repo
 - iOS 학습 프로젝트 모음
 - '덧붙이기'에는 개인적으로 원하는 기능을 추가한 부분입니다.
 
