@@ -2,48 +2,40 @@
 //  StockRankCollectionViewCell.swift
 //  StockRank
 //
-//  Created by s ky on 2023/02/01.
+//  Created by jayden on 2023/04/01.
 //
 
 import UIKit
 
 class StockRankCollectionViewCell: UICollectionViewCell {
     
-    // uicomponent를 연결하자
-    // uicomponent에 데이터를 업데이트 하는 코드를 넣자
     
-    @IBOutlet weak var rankLabel: UILabel!
-    @IBOutlet weak var companyIconImageView: UIImageView!
+    // UIComponent 연결
+    // UIcomponent에 데이터를 업데이트하는 코드
+    
+    @IBOutlet weak var ranklabel: UILabel!
+    @IBOutlet weak var companyIconLabel: UIImageView!
     @IBOutlet weak var companyNameLabel: UILabel!
     @IBOutlet weak var companyPriceLabel: UILabel!
     @IBOutlet weak var diffLabel: UILabel!
     
+    
     func configure(_ stock: StockModel) {
-        rankLabel.text = "\(stock.rank)"
-        companyIconImageView.image = UIImage(named: stock.imageName)
+        ranklabel.text = "\(stock.rank)"
+        companyIconLabel.image = UIImage(named: stock.imageName)
         companyNameLabel.text = stock.name
-        companyPriceLabel.text = "\(convertToCurrencyFormat(price: stock.price)) 원"
+        companyPriceLabel.text = "\(converToCurrencyFormat(price: stock.price)) 원"
         
-        
-        // 등락폭 색깔 방법1 (if문)
-//        let color: UIColor
-//        if stock.diff > 0 {
-//            color = UIColor.systemRed
-//        } else {
-//            color = UIColor.systemBlue
-//        }
-        
-        // 등락폭 색깔 방법2 (삼항연산자)
-        diffLabel.textColor = stock.diff > 0 ? UIColor.systemRed : UIColor.systemBlue
+        // 가격 등락폭 색상을 설정 (삼항연산자)
+        diffLabel.textColor = stock.diff > 0 ? UIColor.red : UIColor.blue
         diffLabel.text = "\(stock.diff) %"
     }
     
-    func convertToCurrencyFormat(price: Int) -> String {
-        let numberformatter = NumberFormatter()
-        numberformatter.numberStyle = .decimal
-        numberformatter.maximumFractionDigits = 0
-        let result =  numberformatter.string(from: NSNumber(value: price)) ?? ""
-        return result
+    func converToCurrencyFormat(price: Int) -> String {
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        numberFormatter.maximumFractionDigits = 0
+        return numberFormatter.string(from: NSNumber(value: price)) ?? ""
     }
     
 }
