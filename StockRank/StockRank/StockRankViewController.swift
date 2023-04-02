@@ -31,10 +31,10 @@ class StockRankViewController: UIViewController {
         
         let alert = UIAlertController(title: "알림", message: "you liked 😍", preferredStyle: .alert)
         let defaultAction = UIAlertAction(title: "OK", style: .default)
-//        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        //        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         
         alert.addAction(defaultAction)
-//        alert.addAction(cancelAction)
+        //        alert.addAction(cancelAction)
         present(alert, animated: true)
     }
 }
@@ -71,5 +71,7 @@ extension StockRankViewController: UICollectionViewDelegateFlowLayout {
         
         return CGSize(width: collectionView.bounds.width, height: 80)
     }
+    
+    
     
 }
