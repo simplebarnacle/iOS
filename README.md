@@ -8,6 +8,7 @@
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | ✅ |4/1|[StockRank](https://github.com/simplebarnacle/iOS/tree/main/StockRank)|AutoLayout, UICollectionView|StoryBoard를 활용하여 UI구성, 리스트그리기|UIAlertController추가|
 | ✅ |4/2|[NikeRunningClub](https://github.com/simplebarnacle/iOS/tree/main/NikeRunningClub)|UIPageControl ,AutoLayout, UICollectionView|UI구성(StoryBoard), PagingView구현||
+| ✅ |4/3|[AppleFramework](https://github.com/simplebarnacle/iOS/tree/main/AppleFramework)|UICollectionView|UI구성(StoryBoard), PagingView구현|[Implementing Modern Collection Views](https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views)|
 
 
 
