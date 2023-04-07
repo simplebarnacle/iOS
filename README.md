@@ -11,6 +11,7 @@
 | ✅ |4/3|[AppleFramework](https://github.com/simplebarnacle/iOS/tree/main/AppleFramework)|DiffableDataSource&CompositionalLayout|StoryBoard, 그리드, Layout 구성|[Implementing Modern Collection Views](https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/implementing_modern_collection_views)|
 | ✅ |4/4|[HeadSpaceFocus](https://github.com/simplebarnacle/iOS/tree/main/HeadSpaceFocus)|Navigation&Modal|storyboard, layout구성, 섹션2개 그리고 모달..🤣||
 | ✅ |4/5|[Network_basic]|URLSession|URLSession을 활용한 네트워크 객체 구성|Combine 찍먹쓰..|
+| ✅ |4/7|[Subway]|UISearchController, UISearchBar|Code로 UI구성&Snapkit, tableView와 collectionView로 화면구성쓰|Alamofire|
 
 
 
