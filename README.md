@@ -13,6 +13,7 @@
 | ✅ |4/5|[Network_basic]|URLSession|URLSession을 활용한 네트워크 객체 구성|Combine 찍먹쓰..|
 | ✅ |4/7|[Subway](https://github.com/simplebarnacle/iOS/tree/main/Subway)|UISearchController, UISearchBar|Code로 UI구성&Snapkit, tableView와 collectionView로 화면구성쓰|Alamofire|
 | ✅ |4/12|[TossBenefit](https://github.com/simplebarnacle/iOS/tree/main/TossBenefit)|||
+| ✅ |4/15|[todolist](https://github.com/simplebarnacle/iOS/tree/main/todolist)|NavigationController, TableView|Storyboard&Code|
 
 
 
